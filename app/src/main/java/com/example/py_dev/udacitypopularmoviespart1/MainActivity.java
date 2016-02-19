@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
     public static final String SORT_BY_VOTES = "http://api.themoviedb.org/3/discover/movie?api_key=???&sort_by=vote_count.desc";
 
     Spinner spinner;
-    String[] items={"","Votes","Popularity"};
+    String[] items={"","Highest Rated","Most Popular"};
 
 
 
@@ -112,7 +112,7 @@ public class MainActivity extends Activity {
 
                                 @Override
                                 public void onNothingSelected(AdapterView<?> parent) {
-                                    getJsonArray(BASE_URL);
+                                    
                                 }
                             });
 

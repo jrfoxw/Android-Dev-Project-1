@@ -2,11 +2,5 @@
     <string name="app_name">UdacityPopularMoviesPart1</string>
     <string name="list_by">LIST BY:</string>
 
-    <string-array name="listby">
-        <item>Default</item>
-        <item>Title</item>
-        <item>Votes</item>
-        <item>Popularity</item>
-    </string-array>
 
 </resources>
